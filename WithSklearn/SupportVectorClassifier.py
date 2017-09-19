@@ -19,7 +19,7 @@ def SuppertVectorMachine():
     X_train, X_test, y_train, y_test = loadDataSet()
     ss = StandardScaler()
     X_train = ss.fit_transform(X_train)
-    X_test = ss.transform(X_test)
+    X_test = ss.          transform(X_test)
 
     lsvc = LinearSVC()
     lsvc.fit(X_train, y_train)
