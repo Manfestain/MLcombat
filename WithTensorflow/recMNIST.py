@@ -17,7 +17,7 @@ def main():
     b = tf.Variable(tf.zeros([10]))
     y = tf.nn.softmax(tf.matmul(x, W) + b)   # 定义一个激活函数
 
-    y_ = tf.placeholder(tf.float32, [None, 10])   #
+    y_ = tf.placeholder(tf.float32, [None, 10])
     cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y),
                                                   reduction_indices=[1]))   # 计算交叉损失
     #   使用随机梯度下降优化算法
@@ -28,7 +28,7 @@ def main():
     for i in range(1000):
         batch_xs, batch_ys = mnist.train.next_batch(100)   # 使用一小部分数据进行随机梯度下降
         train_step.run({x: batch_xs, y_: batch_ys})
-        
+
     correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     print(accuracy.eval({x: mnist.test.images, y_: mnist.test.labels}))
