@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="378428d1-7473-46d1-9529-e26ab020a8e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference_conv.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/M-L combat.iml" afterPath="$PROJECT_DIR$/.idea/M-L combat.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/preProcess.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +24,17 @@
     <SUITE FILE_PATH="coverage/MLcombat$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1507901191169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$recMNIST.coverage" NAME="recMNIST Coverage Results" MODIFIED="1508503315310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_eval.coverage" NAME="mnist_eval Coverage Results" MODIFIED="1509768476208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/recMNIST" />
+    <SUITE FILE_PATH="coverage/MLcombat$preProcess.coverage" NAME="preProcess Coverage Results" MODIFIED="1510665746093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_inference_conv.coverage" NAME="mnist_inference_conv Coverage Results" MODIFIED="1510043614528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/convMNIST" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1510049361076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/convMNIST" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="recMNIST.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="66" />
-              <folding>
-                <element signature="e#24#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="demo05.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/demo05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="1664">
               <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -59,7 +46,7 @@
       <file leaf-file-name="demo04.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="2720">
               <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -71,7 +58,7 @@
       <file leaf-file-name="mnist_inference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="800">
               <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding />
             </state>
@@ -81,7 +68,7 @@
       <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1258">
+            <state relative-caret-position="480">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -93,17 +80,17 @@
       <file leaf-file-name="mnist_inference_conv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference_conv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="1760">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="1280">
               <caret line="64" column="78" lean-forward="false" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -112,10 +99,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="preProcess.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WithTensorflow/preProcess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <folding>
+                <element signature="e#2#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mnist_eval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="320">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
@@ -127,7 +126,7 @@
       <file leaf-file-name="recMNIST02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="3168">
               <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -139,7 +138,7 @@
       <file leaf-file-name="recMNIST021.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST021.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="320">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference.py" />
         <option value="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference_conv.py" />
         <option value="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_train.py" />
+        <option value="$PROJECT_DIR$/WithTensorflow/preProcess.py" />
       </list>
     </option>
   </component>
@@ -239,7 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="convMNIST" />
+              <option name="myItemId" value="path" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,26 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mnist_train (1)">
-    <configuration default="false" name="demo04" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithTensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="M-L combat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/demo04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.preProcess">
     <configuration default="false" name="mnist_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,6 +352,25 @@
       <module name="M-L combat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference_conv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="preProcess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithTensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M-L combat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/preProcess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,19 +525,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo04" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mnist_train" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mnist_eval" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mnist_inference_conv" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mnist_train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mnist_eval" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mnist_inference_conv" />
+      <item index="4" class="java.lang.String" itemvalue="Python.preProcess" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mnist_inference_conv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mnist_train" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mnist_eval" />
-        <item index="4" class="java.lang.String" itemvalue="Python.demo04" />
+        <item index="0" class="java.lang.String" itemvalue="Python.preProcess" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mnist_inference_conv" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mnist_train" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mnist_eval" />
       </list>
     </recent_temporary>
   </component>
@@ -561,17 +561,17 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20032051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20245726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26564217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26564217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -593,12 +593,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="66" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -674,7 +694,7 @@
         <state relative-caret-position="145">
           <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="66" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,7 +749,7 @@
         <state relative-caret-position="551">
           <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -787,7 +807,7 @@
         <state relative-caret-position="522">
           <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,7 +852,7 @@
         <state relative-caret-position="522">
           <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,17 +922,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="160">
           <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="66" />
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
+            <element signature="e#24#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/demo05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1664">
           <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -928,17 +948,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST021.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="800">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding />
         </state>
@@ -946,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="320">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
@@ -956,7 +968,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="3168">
           <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -966,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2720">
           <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -976,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1258">
+        <state relative-caret-position="480">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -986,18 +998,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_inference_conv.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST021.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="1280">
           <caret line="64" column="78" lean-forward="false" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/preProcess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="e#2#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
