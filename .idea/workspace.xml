@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="378428d1-7473-46d1-9529-e26ab020a8e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithSklearn/GBDTdemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/autoEncoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goldenSection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithSklearn/MLP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithSklearn/RFdemo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +19,12 @@
     <SUITE FILE_PATH="coverage/MLcombat$goldenSection.coverage" NAME="goldenSection Coverage Results" MODIFIED="1510888397025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MLcombat$recMNIST02.coverage" NAME="recMNIST02 Coverage Results" MODIFIED="1509435329603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/MNIST_data" />
     <SUITE FILE_PATH="coverage/MLcombat$demo04.coverage" NAME="demo04 Coverage Results" MODIFIED="1509442065738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
+    <SUITE FILE_PATH="coverage/MLcombat$MLP.coverage" NAME="MLP Coverage Results" MODIFIED="1516076072453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithSklearn" />
     <SUITE FILE_PATH="coverage/MLcombat$autoEncoder.coverage" NAME="autoEncoder Coverage Results" MODIFIED="1516021530085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1508933514233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$demo05.coverage" NAME="demo05 Coverage Results" MODIFIED="1509027177601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$demo02.coverage" NAME="demo02 Coverage Results" MODIFIED="1508933487560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
+    <SUITE FILE_PATH="coverage/MLcombat$RFdemo.coverage" NAME="RFdemo Coverage Results" MODIFIED="1516094323438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithSklearn" />
     <SUITE FILE_PATH="coverage/MLcombat$featurePorject.coverage" NAME="featurePorject Coverage Results" MODIFIED="1508218968428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithSklearn" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_train.coverage" NAME="mnist_train Coverage Results" MODIFIED="1509769983267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/recMNIST" />
     <SUITE FILE_PATH="coverage/MLcombat$demo01.coverage" NAME="demo01 Coverage Results" MODIFIED="1507901191169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
@@ -39,7 +40,7 @@
       <file leaf-file-name="demo04.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="2465">
               <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -51,7 +52,7 @@
       <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
+            <state relative-caret-position="435">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="GBDTdemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithSklearn/GBDTdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+            <state relative-caret-position="196">
+              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -72,13 +73,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoEncoder.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="autoEncoder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/autoEncoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2340">
-              <caret line="31" column="63" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="680">
+              <caret line="126" column="63" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="63" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MLP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WithSklearn/MLP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RFdemo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WithSklearn/RFdemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2204">
+              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <element signature="e#24#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +112,7 @@
       <file leaf-file-name="recMNIST02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="2871">
               <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -99,7 +124,7 @@
       <file leaf-file-name="recMNIST021.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST021.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="290">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
@@ -142,6 +167,8 @@
         <option value="$PROJECT_DIR$/goldenSection.py" />
         <option value="$PROJECT_DIR$/WithSklearn/GBDTdemo.py" />
         <option value="$PROJECT_DIR$/WithTensorflow/autoEncoder.py" />
+        <option value="$PROJECT_DIR$/WithSklearn/MLP.py" />
+        <option value="$PROJECT_DIR$/WithSklearn/RFdemo.py" />
       </list>
     </option>
   </component>
@@ -152,9 +179,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1917" />
-    <option name="width" value="1932" />
-    <option name="height" value="1045" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -195,7 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WithTensorflow" />
+              <option name="myItemId" value="WithSklearn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,45 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autoEncoder">
-    <configuration default="false" name="mnist_train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithTensorflow/convMNIST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="M-L combat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/convMNIST/mnist_train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="preProcess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithTensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="M-L combat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/preProcess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.RFdemo">
     <configuration default="false" name="goldenSection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +306,44 @@
       <module name="M-L combat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithTensorflow/autoEncoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MLP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithSklearn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M-L combat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithSklearn/MLP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RFdemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WithSklearn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M-L combat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WithSklearn/RFdemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,19 +498,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.preProcess" />
-      <item index="2" class="java.lang.String" itemvalue="Python.goldenSection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GBDTdemo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.autoEncoder" />
+      <item index="0" class="java.lang.String" itemvalue="Python.goldenSection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.GBDTdemo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.autoEncoder" />
+      <item index="3" class="java.lang.String" itemvalue="Python.MLP" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RFdemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.autoEncoder" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GBDTdemo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.goldenSection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.preProcess" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mnist_train (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.RFdemo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MLP" />
+        <item index="2" class="java.lang.String" itemvalue="Python.autoEncoder" />
+        <item index="3" class="java.lang.String" itemvalue="Python.GBDTdemo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.goldenSection" />
       </list>
     </recent_temporary>
   </component>
@@ -503,16 +531,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1917" y="0" width="1932" height="1045" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14476496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29088914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25737706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -538,28 +566,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/demo05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_inference.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,15 +853,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2871">
           <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -865,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2465">
           <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -877,13 +880,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST021.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="290">
           <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
@@ -893,9 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1952">
           <caret line="64" column="78" lean-forward="false" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
-          <folding>
-            <element signature="e#24#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,15 +902,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
           <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="e#2#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
+        <state relative-caret-position="435">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
@@ -923,26 +919,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/autoEncoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="126" column="63" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="63" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithSklearn/MLP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithSklearn/GBDTdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="72" column="23" lean-forward="false" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        <state relative-caret-position="196">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="53" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/autoEncoder.py">
+    <entry file="file://$PROJECT_DIR$/WithSklearn/RFdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2340">
-          <caret line="31" column="63" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="2204">
+          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
-            <element signature="e#24#42#0" expanded="true" />
+            <element signature="e#24#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
