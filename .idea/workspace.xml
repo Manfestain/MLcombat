@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="378428d1-7473-46d1-9529-e26ab020a8e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WithTensorflow/InceptionV3demo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py" afterPath="$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py" afterPath="$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,23 +35,11 @@
     <SUITE FILE_PATH="coverage/MLcombat$preProcess.coverage" NAME="preProcess Coverage Results" MODIFIED="1510665746093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_inference_conv.coverage" NAME="mnist_inference_conv Coverage Results" MODIFIED="1510043614528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/convMNIST" />
     <SUITE FILE_PATH="coverage/MLcombat$mnist_train__1_.coverage" NAME="mnist_train (1) Coverage Results" MODIFIED="1510049361076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow/convMNIST" />
-    <SUITE FILE_PATH="coverage/MLcombat$VGGNet_16demo.coverage" NAME="VGGNet-16demo Coverage Results" MODIFIED="1516178426293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
+    <SUITE FILE_PATH="coverage/MLcombat$VGGNet_16demo.coverage" NAME="VGGNet-16demo Coverage Results" MODIFIED="1516193985217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WithTensorflow" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo04.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WithTensorflow/demo04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-              <folding>
-                <element signature="e#24#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mnist_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,7 +103,7 @@
       <file leaf-file-name="conv2Demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/conv2Demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="1711">
               <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
               <folding>
                 <element signature="e#24#47#0" expanded="true" />
@@ -124,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlexNetdemo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlexNetdemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2494">
-              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+            <state relative-caret-position="2407">
+              <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -139,10 +127,22 @@
       <file leaf-file-name="VGGNet-16demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="2784">
+              <caret line="99" column="10" lean-forward="false" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InceptionV3demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WithTensorflow/InceptionV3demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5423">
+              <caret line="256" column="31" lean-forward="false" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
+              <folding>
+                <marker date="1516246152769" expanded="true" signature="10391:11689" ph="..." />
               </folding>
             </state>
           </provider>
@@ -200,6 +200,7 @@
         <option value="$PROJECT_DIR$/WithTensorflow/conv2Demo2.py" />
         <option value="$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py" />
         <option value="$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py" />
+        <option value="$PROJECT_DIR$/WithTensorflow/InceptionV3demo.py" />
       </list>
     </option>
   </component>
@@ -230,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,7 +261,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AlexNetdemo">
+  <component name="RunManager" selected="Python.VGGNet-16demo">
     <configuration default="false" name="MLP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -537,8 +538,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.AlexNetdemo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.VGGNet-16demo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.VGGNet-16demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AlexNetdemo" />
         <item index="2" class="java.lang.String" itemvalue="Python.conv2Demo" />
         <item index="3" class="java.lang.String" itemvalue="Python.RFdemo" />
         <item index="4" class="java.lang.String" itemvalue="Python.MLP" />
@@ -565,13 +566,13 @@
     <frame x="-1929" y="3" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14797008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25027442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25027442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -597,16 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST/mnist_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#24#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/recMNIST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -625,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,9 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2871">
           <caret line="100" column="51" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="51" />
-          <folding>
-            <element signature="e#24#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="88" column="46" lean-forward="false" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,13 +941,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WithTensorflow/conv2Demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="1711">
           <caret line="60" column="21" lean-forward="false" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -979,22 +954,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py">
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="2407">
+          <caret line="86" column="28" lean-forward="false" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WithTensorflow/AlexNetdemo.py">
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/VGGNet-16demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2494">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+        <state relative-caret-position="2784">
+          <caret line="99" column="10" lean-forward="false" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WithTensorflow/InceptionV3demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5423">
+          <caret line="256" column="31" lean-forward="false" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
+          <folding>
+            <marker date="1516246152769" expanded="true" signature="10391:11689" ph="..." />
           </folding>
         </state>
       </provider>

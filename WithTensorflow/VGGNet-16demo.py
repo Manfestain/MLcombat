@@ -8,6 +8,9 @@ from datetime import datetime
 batch_size = 32
 num_batches = 100
 
+def print_activations(t):
+    print(t.op.name, '  ', t.get_shape().as_list())
+
 # 卷积层
 '''
     input_op输入的tensor
@@ -27,6 +30,7 @@ def conv_op(input_op, name, kh, kw, n_out, dh, dw, p):
         z = tf.nn.bias_add(conv, biases)
         activation = tf.nn.relu(z, name=scope)
         p += [kernel, biases]
+        print_activations(activation)
 
     return activation
 
@@ -41,16 +45,20 @@ def fc_op(input_op, name, n_out, p):
         biases = tf.Variable(tf.constant(0.1, shape=[n_out], dtype=tf.float32), trainable=True, name='biases')
         activation = tf.nn.relu_layer(input_op, kernel, biases, name=scope)
         p += [kernel, biases]
+        print_activations(activation)
 
     return activation
 
 # 最大池化层
 def mpool_op(input_op, name, kh, kw, dh, dw):
-    return tf.nn.max_pool(input_op,
+    pool = tf.nn.max_pool(input_op,
                           ksize=[1, kh, kw, 1],
                           strides=[1, dh, dw, 1],
                           padding='SAME',
                           name=name)
+    print_activations(pool)
+    return pool
+
 
 # 网络结构
 def inference_op(input_op, keep_prob):
@@ -80,9 +88,9 @@ def inference_op(input_op, keep_prob):
 
     # 第五段卷积网络
     conv5_1 = conv_op(pool4, name='conv5_1', kh=3, kw=3, n_out=512, dh=1, dw=1, p=parameters)
-    conv5_2 = conv_op(conv5_1, name='conv5_1', kh=3, kw=3, n_out=512, dh=1, dw=1, p=parameters)
+    conv5_2 = conv_op(conv5_1, name='conv5_2', kh=3, kw=3, n_out=512, dh=1, dw=1, p=parameters)
     conv5_3 = conv_op(conv5_2, name='conv5_3', kh=3, kw=3, n_out=512, dh=1, dw=1, p=parameters)
-    pool5 = mpool_op(conv5_3, name='conv5_3', kh=2, kw=2, dh=2, dw=2)
+    pool5 = mpool_op(conv5_3, name='pool5', kh=2, kw=2, dh=2, dw=2)
 
     # 扁平化
     shp = pool5.get_shape()
