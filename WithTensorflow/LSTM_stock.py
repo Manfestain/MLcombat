@@ -63,6 +63,8 @@ biases = {
 def lstm(x):
     batch_size = tf.shape(x)[0]
     time_step = tf.shape(x)[1]
+    k = tf.shape(x)
+    tf.Print(k, [k])
     w_in = weights['in']
     b_in = biases['in']
 
